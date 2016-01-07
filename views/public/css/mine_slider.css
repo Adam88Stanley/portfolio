@@ -1,0 +1,107 @@
+                .slider {
+                    position: relative;
+                    border-bottom: 1px solid #EBEBE0; 
+                   
+                 }
+    
+                .slider > div {
+                    position: relative;
+                    }
+    
+                .slider .left_arrow {
+                    opacity: 0;
+                    position: absolute;
+                    z-index: 10;
+                    top: 50%;
+                    left: 0px;
+                    transform: translateY(-50%);
+                    background-image: url(../img/arrow_left.png); 
+                    width: 32px;
+                    height: 32px;
+                 }
+                 
+                 .slider .right_arrow {
+                    opacity: 0;
+                    position: absolute;
+                    z-index: 10;
+                    right: 0px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background-image: url(../img/arrow_right.png);
+                    width: 32px;
+                    height: 32px;
+                 }
+                 
+                 .slider:hover .left_arrow {
+                    opacity:1;
+                    transition: opacity 0.8s ease-in-out;
+                 }
+                 .slider:hover .right_arrow {
+                    opacity: 1;
+                     transition: opacity 0.8s ease-in-out;
+                 }
+                
+                 
+                 .slider a img {
+                    margin: 15px 35px;
+                    margin-left: 0px;
+                    max-width: 60%;
+                 }
+                 
+                 .slider_description {
+                    position: absolute;
+                    top: 0;
+                    right: 35px;
+                    text-align: right;
+                 }
+                
+                 .slider_description h3 {
+                    margin: 15px 0px;
+                 }
+                 
+                 .slider_description .price {
+                    display: block;
+                    font-size: 1.5em;
+                    color: #FB5642;
+                 }
+                 
+                 .slider_description .old_price {
+                    display: block;
+                    font-size: 0.8em;
+                    text-decoration: line-through;
+                 }
+                 
+                 .slider_description .add_to_cart {
+                    display: block;
+                    width: 120px;
+                    float: right;
+                    padding: 5px 15px;
+                    text-align: center;
+                    background-color: #FB5642;
+                 }
+                 
+                 .slider_description .add_to_cart:hover {
+                    color: #FFF;
+                    background-color: #494E57;
+                 }
+
+
+
+@media only screen and (min-width: 800px) {
+               
+    
+    .slider .left_arrow {
+            left: -30px;
+                    
+    }
+                 
+    .slider .right_arrow {
+            right: -30px;
+    }
+    
+    
+    
+    
+    
+    
+}

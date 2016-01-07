@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+
+table {
+	width:100%;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+thead tr {
+	
+	background-color: #494E57;
+	color: #FFF;
+	
+}
+
+tr {
+	
+	border-bottom: 1px solid black;
+	width: 100%;
+	
+	
+}
+td a {
+	color: #494E57;
+	font-weight: bold;
+}
+
+td a:hover {
+	color: #FB5642;
+}
+
+.tr_no_border {
+	
+	border: none;
+	
+}
+
+.tr_border {
+	
+	border: 1px solid black;
+	
+}
+
+.profile form input.delete {
+	margin:0 ;
+	width: 40%;
+	text-align: left;
+}
+
+.pagination {
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+.pagination a {
+	color:#494E57;
+	margin-bottom: 20px;
+	padding: 2px;
+	
+}
+
+a.selected {
+	font-weight:bold;
+	color:#FB5642;
+	
+}
+
+.buttons {
+	padding-top:0;
+	margin-top:0; 
+	
+}

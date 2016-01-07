@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+
+.content {
+	color: #494E57;
+	font-size: 0.8em;
+}
+h3 {
+	
+	border-bottom: 1px solid #494E57;
+	padding-bottom: 5px;
+	
+}
+
+table {width: 100%;
+
+}
+
+thead tr {
+	
+	background-color: #494E57;
+	color: #FFF;
+	
+	
+} 
+input[type="number"] { 
+	width:50px;	
+	
+}
+
+body .content form input[type="submit"], a.button {
+	display:inline-block;
+    margin: 1px;
+    border:0;
+    line-height: 30px;
+    height:30px;
+    width:150px;
+    text-align: center;
+    padding: 0 10px;
+    background-color: #FB5642;
+    color: #FFF;
+}
+
+input[type="submit"]:HOVER,  .button:HOVER {
+	
+	 background-color:#494E57;
+	 color: #FFF;
+}
+
+
+ 
+.order {
+	border-bottom: 1px solid #494E57;
+}    
+
+
+textarea {
+	width:100%;
+	height:100px;
+	resize:none;
+	margin-top:10px;
+	
+	
+}          
