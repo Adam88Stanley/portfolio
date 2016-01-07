@@ -1,5 +1,5 @@
-Utworzyæ bazê "shop" i zaimportowaæ plik shop.sql
-W celu rejestracji nowego u¿ytkownika ustawiæ email w config.php
-Has³o u¿ytkownika adam88 Login adam88
-Has³o admina admin login admin // mo¿liwoœæ modyfikacji w config.php
+UtworzyÄ‡ baze "shop" i zaimportowaÄ‡ plik shop.sql
+W celu rejestracji nowego uzytkownika ustawiÄ‡ email w config.php
+Haslo uÅ¼ytkownika adam88 Login adam88
+Haslo admina admin login admin // moÅ¼liwosc modyfikacji w config.php
 
